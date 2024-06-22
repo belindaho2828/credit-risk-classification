@@ -41,9 +41,14 @@ Used model.predict to predict using X_test. The results were then evaluated usin
 
 ## Confusion Matrix
 
+<img width="102" alt="confusion_matrix" src="https://github.com/belindaho2828/credit-risk-classification/assets/155488822/61a9f12f-4a6e-48b9-b563-802a2e7caac3">
+
+
 - The confusion matrix reveals a small number of misclassifications, with more false positives (102) than false negatives (56). This suggests that the model errs on the side of caution, favoring the identification of high-risk loans.
 
 ## Classification Report
+
+<img width="236" alt="Classification_Report" src="https://github.com/belindaho2828/credit-risk-classification/assets/155488822/403d3f34-fc75-4d2d-a699-80f8ff8cba2e">
 
 - The model demonstrates a very high accuracy of 99%, indicating strong effectiveness in classifying loans correctly.
 - For healthy loans, the precision, recall, and F1-score are nearly perfect, showcasing the model's exceptional capability in identifying healthy loans accurately.
